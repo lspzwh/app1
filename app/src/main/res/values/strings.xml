@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="sign_in">登录</string>
+    <string name="welcome">您好,欢迎来到知乎日报</string>
+    <string name="hint_1">请输入账号</string>
+    <string name="hint_2">输入账密码</string>
+    <string name="but1">登录</string>
+    <string name="sina">新浪微博登录</string>
+    <string name="tencent">腾讯微博登录</string>
+    <string name="register">注册</string>
+    <string name="hint_3">请重新输入密码</string>
+    <string name="question">没有账号?点击我注册</string>
+</resources>

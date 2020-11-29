@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_back_register"
+        android:id="@+id/back"
+        android:clickable="true"
+        android:focusable="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/back"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:textColor="#003399"
+        android:layout_toEndOf="@+id/back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:src="@drawable/splash_logo"
+        android:layout_below="@+id/back"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/register_user"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:hint="@string/hint_1"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawableStart="@drawable/ic_user"
+        android:maxLength="10"
+        android:singleLine="true"
+        />
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:id="@+id/register_password"
+        android:layout_below="@+id/register_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:hint="@string/hint_2"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawableStart="@drawable/ic_password"
+        android:maxLength="18"
+        android:singleLine="true"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:id="@+id/register_password_sure"
+        android:layout_below="@+id/register_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:hint="@string/hint_3"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawableStart="@drawable/ic_password"
+        android:maxLength="18"
+        android:singleLine="true"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register_password_sure"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_button_selector"/>
+
+
+</RelativeLayout>
